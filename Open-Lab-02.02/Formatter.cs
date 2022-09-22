@@ -6,7 +6,16 @@ namespace Open_Lab_02._02
     {
         public void Format(double[] numbers)
         {
-            throw new NotImplementedException();
+
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.Write(String.Format("{0:0.00 }", numbers[i]));
+            }
+
+
+
+
         }
     }
 }
